@@ -1,3 +1,4 @@
+"use strict";
 // Parametro obligatorio quien:string
 // Parametro por defecto puede o no puede ser obligatorio ya tiene un valor por defecto objeto:string = "batiseñal" 
 // Parametro que puende ser o no puede ser enviado a la funcion es opvional momento?:string 

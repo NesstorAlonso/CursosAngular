@@ -1,3 +1,4 @@
+"use strict";
 var miFuction2 = function (a, b) {
     return a + b;
 };
@@ -19,4 +20,6 @@ var hulk = {
         }, 1500);
     }
 };
+//En otra palabra una de las principales funciones de las funciones de flecha es que el this no es afectado cuando se 
+//ejecuta dentro de otra funcion 
 hulk.smash();

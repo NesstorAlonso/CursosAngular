@@ -1,3 +1,4 @@
+"use strict";
 var avenger = {
     nombre: "Steve",
     clave: "Capitan America",

@@ -1,3 +1,4 @@
+"use strict";
 function enviarMision(xmen) {
     console.log("Enviando a: " + xmen.nombre + "Y tiene el poder: " + xmen.poder);
 }

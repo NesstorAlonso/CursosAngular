@@ -1,3 +1,4 @@
+"use strict";
 var nombre = "Peter";
 var numero = 123;
 var boolean = true;

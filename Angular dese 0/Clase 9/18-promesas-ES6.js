@@ -1,3 +1,4 @@
+"use strict";
 var prom1 = new Promise(function (resolver, reject) {
     setTimeout(function () {
         console.log("Promesa Terminada");
