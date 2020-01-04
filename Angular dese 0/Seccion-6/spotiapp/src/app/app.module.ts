@@ -7,9 +7,12 @@ import { ArtistaComponent } from './components/artista/artista.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SharedComponent } from './components/shared/shared.component';
 import { SearchComponent } from './components/search/search.component';
-import {  RouterModule } from '@angular/router';
+import {  RouterModule } from '@angular/router';;
 import { HttpClientModule } from '@angular/common/http'
 import { ROUTES } from './app.routes';
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+
 
 
 
@@ -20,7 +23,9 @@ import { ROUTES } from './app.routes';
     ArtistaComponent,
     NavbarComponent,
     SharedComponent,
-    SearchComponent
+    SearchComponent,
+    NoimagePipe, 
+    TarjetasComponent
   ],
   imports: [
     BrowserModule, 
