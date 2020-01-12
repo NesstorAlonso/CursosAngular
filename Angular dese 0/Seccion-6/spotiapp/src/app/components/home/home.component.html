@@ -1,4 +1,18 @@
+<<<<<<< HEAD
 <app-tarjetas [items]="nuevasCanciones"></app-tarjetas>
+=======
+<app-loading *ngIf="loading"></app-loading>
+
+<div *ngIf="error" class="alert alert-danger animated fadeIn">
+    <h3> Erro </h3>
+    <p>
+        {{ mensajeError }}
+    </p>
+</div>
+
+<app-tarjetas [items]="nuevasCanciones"></app-tarjetas>
+
+>>>>>>> a8a7fe5ffcd04c2eb2c7a1d44fb3a4d8aacc2fc7
 <!-- <ul>
     <li *ngFor="let pais of paises">
         {{ pais.name }} - {{ pais.population | number }}

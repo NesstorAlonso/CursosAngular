@@ -4,4 +4,11 @@
     </div>
 </div>
 
+<<<<<<< HEAD
 <app-tarjetas [items]="artistas"></app-tarjetas>
+=======
+<app-loading *ngIf="loading"></app-loading>
+
+
+<app-tarjetas *ngIf="!loading" [items]="artistas"></app-tarjetas>
+>>>>>>> a8a7fe5ffcd04c2eb2c7a1d44fb3a4d8aacc2fc7

@@ -12,6 +12,13 @@ import { HttpClientModule } from '@angular/common/http'
 import { ROUTES } from './app.routes';
 import { NoimagePipe } from './pipes/noimage.pipe';
 import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
+<<<<<<< HEAD
+=======
+import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
+
+
+>>>>>>> a8a7fe5ffcd04c2eb2c7a1d44fb3a4d8aacc2fc7
 
 
 
@@ -24,8 +31,15 @@ import { TarjetasComponent } from './components/tarjetas/tarjetas.component';
     NavbarComponent,
     SharedComponent,
     SearchComponent,
+<<<<<<< HEAD
     NoimagePipe, 
     TarjetasComponent
+=======
+    NoimagePipe,
+    TarjetasComponent,
+    LoadingComponent,
+    DomseguroPipe
+>>>>>>> a8a7fe5ffcd04c2eb2c7a1d44fb3a4d8aacc2fc7
   ],
   imports: [
     BrowserModule, 
