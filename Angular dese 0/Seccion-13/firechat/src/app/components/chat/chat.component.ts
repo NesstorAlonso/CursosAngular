@@ -13,8 +13,7 @@ export class ChatComponent  {
   mensaje: string ="";
   constructor( public _cs: ChatService) {
 
-    this._cs.cargarMensajes()
-    .subscribe();
+    this._cs.cargarMensajes().subscribe();
     
    }
 
